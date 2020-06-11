@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Paginate from './paginate.jsx'
 
 class App extends Component {
   constructor() {
@@ -12,7 +13,8 @@ class App extends Component {
   render() {
     return (
       <p>
-        App is working!
+        <br />
+        <Paginate />
       </p>
     )
   }
